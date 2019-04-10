@@ -28,7 +28,6 @@ test('start of word returns first letter', () => {
   expect(startOfWord('hello', 1)).toEqual('h');
 });
 
-
 test('start of word returns first two letters', () => {
   expect(startOfWord('Bob', 2)).toEqual('Bo');
 });
